@@ -1,0 +1,25 @@
+{
+  "name": "scuti-resources",
+  "version": "1.0.0",
+  "description": "Resources for scuti-renderer",
+  "main": "index.js",
+  "scripts": {
+    "serve:assets": "http-server ./ -p 8081 -i --cors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kozennnn/scuti-resources.git"
+  },
+  "keywords": [
+    "scuti"
+  ],
+  "author": "KOZEN & Tig3r",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kozennnn/scuti-resources/issues"
+  },
+  "homepage": "https://github.com/kozennnn/scuti-resources#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
