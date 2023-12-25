@@ -4,7 +4,7 @@
   "description": "Resources for scuti-renderer",
   "main": "index.js",
   "scripts": {
-    "serve:assets": "http-server ./ -p 8081 -i --cors"
+    "serve:assets": "http-server ./resources/ -p 8081 -i --cors"
   },
   "repository": {
     "type": "git",
